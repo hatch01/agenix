@@ -1,7 +1,7 @@
 # This runs every day on 1801 UTC
 on:
   schedule:
-    - cron: '1 18 * * *'
+    - cron: '0 2 * * 1'
   # Allows manual workflow run (must in default branch to work)
   workflow_dispatch:
 
